@@ -1,0 +1,52 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 41px;
+    &__button {
+        cursor: pointer;
+        margin: 28px 50px 28px 0;
+        text-align: center;
+        padding: 10px 30px;
+        border-radius: 25px;
+        border: none;
+        color:#FFFFFF;
+        font-size: 14px;
+        line-height: 18px;
+        background-color: $button-first-color;
+    }
+    &__button:hover{
+        background-color: $button-hover-color;
+    }
+    &__icon-menu{
+        display: block;
+        margin-left: 50px;
+    }
+    &__logo{
+        display: inline-block ;
+    }
+    @media screen and (max-width: 1034px) {
+       
+        &__icon-menu{
+            display: block;
+            margin: 31px 0 31px 15px;
+        }
+        &__logo{
+            display: block;
+        }
+        &__button {
+            margin: 0 15px 0 0;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        &__button{
+            display: none;
+        }
+        &__logo{
+            margin-right: 24px;
+        }
+    }
+
+}
+
