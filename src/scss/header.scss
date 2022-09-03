@@ -11,9 +11,12 @@
         border-radius: 25px;
         border: none;
         color:#FFFFFF;
-        font-size: 14px;
-        line-height: 18px;
         background-color: $button-first-color;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;              
     }
     &__button:hover{
         background-color: $button-hover-color;

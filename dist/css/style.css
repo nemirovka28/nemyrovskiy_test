@@ -33,9 +33,12 @@
   border-radius: 25px;
   border: none;
   color: #FFFFFF;
+  background-color: #BB6BD9;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
   font-size: 14px;
   line-height: 18px;
-  background-color: #BB6BD9;
 }
 .header__button:hover {
   background-color: #A847CC;
